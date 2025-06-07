@@ -11,7 +11,8 @@ public class UsuariosDAO
         {
             for (Usuario u : usuarios)
             {
-                writer.println(u.getId() + "," + u.getNombre() + "," + u.getTelefono() + u.getEmail());
+                writer.println(u.getId() + "," + u.getNombre() + "," + u.getTelefono() + "," + u.getDireccion() + "," + u.getEmail());
+
             }
         }
         catch (IOException e)
